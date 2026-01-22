@@ -1,0 +1,147 @@
+Ambiente com constante waste accumulation (5s) e possibilidade de breaks.
+
+TRUCK: truck_organic_1@localhost [organic]
+  - Total waste collected: 415
+  - Total fuel spent: 254
+  - Total distance travelled: 171
+  - Total number of collabs: 1
+
+TRUCK: truck_organic_2@localhost [organic]
+  - Total waste collected: 232
+  - Total fuel spent: 214
+  - Total distance travelled: 159
+  - Total number of collabs: 1
+
+TRUCK: truck_recyclable_3@localhost [recyclable]
+  - Total waste collected: 467
+  - Total fuel spent: 188
+  - Total distance travelled: 137
+  - Total number of collabs: 3
+
+TRUCK: truck_recyclable_4@localhost [recyclable]
+  - Total waste collected: 436
+  - Total fuel spent: 225
+  - Total distance travelled: 160
+  - Total number of collabs: 3
+
+BIN bin_organic_1@localhost [organic]:
+  - Total collections: 3
+  - CFP collections: 0
+  - Autonomous collections: 3
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 3 collections
+  - No CFP collections
+
+BIN bin_organic_2@localhost [organic]:
+  - Total collections: 2
+  - CFP collections: 1
+  - Autonomous collections: 1
+  - CFP collection times: ['88.00s']
+  - Overflow count: 1
+  - Collection rate: 2 collections
+  - Average CFP response time: 88.00s
+
+BIN bin_organic_3@localhost [organic]:
+  - Total collections: 3
+  - CFP collections: 2
+  - Autonomous collections: 1
+  - CFP collection times: ['6.00s']
+  - Overflow count: 0
+  - Collection rate: 3 collections
+  - Average CFP response time: 6.00s
+
+BIN bin_organic_4@localhost [organic]:
+  - Total collections: 2
+  - CFP collections: 0
+  - Autonomous collections: 2
+  - CFP collection times: []
+  - Overflow count: 1
+  - Collection rate: 2 collections
+  - No CFP collections
+
+BIN bin_recyclable_5@localhost [recyclable]:
+  - Total collections: 4
+  - CFP collections: 1
+  - Autonomous collections: 3
+  - CFP collection times: ['5.00s']
+  - Overflow count: 0
+  - Collection rate: 4 collections
+  - Average CFP response time: 5.00s
+
+BIN bin_recyclable_6@localhost [recyclable]:
+  - Total collections: 5
+  - CFP collections: 1
+  - Autonomous collections: 4
+  - CFP collection times: ['25.00s']
+  - Overflow count: 0
+  - Collection rate: 5 collections
+  - Average CFP response time: 25.00s
+
+BIN bin_recyclable_7@localhost [recyclable]:
+  - Total collections: 3
+  - CFP collections: 1
+  - Autonomous collections: 2
+  - CFP collection times: ['20.00s']
+  - Overflow count: 0
+  - Collection rate: 3 collections
+  - Average CFP response time: 20.00s
+
+BIN bin_recyclable_8@localhost [recyclable]:
+  - Total collections: 1
+  - CFP collections: 1
+  - Autonomous collections: 0
+  - CFP collection times: ['22.00s']
+  - Overflow count: 1
+  - Collection rate: 1 collections
+  - Average CFP response time: 22.00s
+
+
+==================================================
+SYSTEM PERFORMANCE METRICS
+==================================================
+
+SYSTEM EFFICIENCY:
+--------------------
+Bins collected before overflow: 5/8 (62.5%)
+Bins with at least one collection: 8/8 (100.0%)
+Total collections (all types): 23
+CFP collections: 7
+Autonomous collections: 16
+
+RESPONSE TIMES (CFP only):
+-------------------------
+Average CFP response time: 23.71s
+Total CFP collections: 7
+Quickest CFP collection: 5.00s
+Slowest CFP collection: 88.00s
+
+RECYCLING STATISTICS:
+--------------------
+Estimated recycling rate: 56.5%
+Organic bins: 4
+Recyclable bins: 4
+Estimated organic waste collected: 500 units
+Estimated recyclable waste collected: 650 units
+
+TRUCK EFFICIENCY:
+---------------
+Waste collected per fuel unit: 1.76
+Waste collected per distance unit: 2.47
+Total fuel consumed: 881
+Total distance traveled: 627
+
+COLLABORATION & RESILIENCE:
+-------------------------
+Collaborations per breakdown: 8.00
+Average collaborations per truck: 2.00
+Total collaborations: 8
+Trucks that experienced breakdowns: 0
+
+OVERALL SUMMARY:
+---------------
+Total simulation time: 302.00s
+Total waste collected: 1550 units
+Total trucks: 4
+Total bins: 8
+Actual simulation run time: 302.00s

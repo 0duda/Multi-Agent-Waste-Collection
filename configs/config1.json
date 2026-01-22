@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "rows": 11,
+    "cols": 11,
+    "traffic": 3,
+    "layout": [
+            [0,0,0,0,5,0,0,0,0,0,0],
+            [5,5,5,0,5,0,5,0,5,5,5],
+            [0,5,0,0,5,0,5,0,0,0,0],
+            [0,5,0,0,0,0,0,0,0,5,0],
+            [0,0,0,0,5,5,5,0,0,5,0],
+            [0,5,0,0,5,0,0,0,0,5,0],
+            [0,5,0,0,5,5,5,0,0,5,0],
+            [0,0,0,0,0,0,0,0,0,0,0],
+            [0,5,0,5,0,0,0,5,5,5,0],
+            [5,5,0,5,0,5,5,5,0,5,0],
+            [0,0,0,5,0,0,0,0,0,5,0]]
+  },
+  "bins": [
+    {"name": "B1", "position": [0, 1], "type": "organic", "max_capacity": 100},
+    {"name": "B2", "position": [7, 10], "type": "organic", "max_capacity": 100},
+    {"name": "B3", "position": [10, 6], "type": "organic", "max_capacity": 100},
+    {"name": "B4", "position": [5, 0], "type": "recyclable", "max_capacity": 100},
+    {"name": "B5", "position": [0, 7], "type": "recyclable", "max_capacity": 100},
+    {"name": "B6", "position": [9, 2], "type": "recyclable", "max_capacity": 100}
+
+  ],
+  "trucks": [
+    {"name": "T1", "position": [3, 3], "type": "organic", "max_load": 400, "max_fuel": 100},
+    {"name": "T2", "position": [9, 4], "type": "organic", "max_load": 400, "max_fuel": 100},
+    {"name": "T3", "position": [4, 10], "type": "recyclable", "max_load": 400, "max_fuel": 100},
+    {"name": "T4", "position": [2, 0], "type": "recyclable", "max_load": 400, "max_fuel": 100}
+  ],
+  "roadblocks": [[4,7], [1,5]],
+  "central": [5, 5]
+}

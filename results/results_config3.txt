@@ -1,0 +1,174 @@
+Ambiente com constante waste accumulation (5s) e possibilidade de breaks.
+
+TRUCK: truck_organic_1@localhost [organic]
+  - Total waste collected: 211
+  - Total fuel spent: 4
+  - Total distance travelled: 4
+  - Total number of collabs: 4
+
+TRUCK: truck_organic_2@localhost [organic]
+  - Total waste collected: 526
+  - Total fuel spent: 89
+  - Total distance travelled: 89
+  - Total number of collabs: 7
+
+TRUCK: truck_organic_3@localhost [organic]
+  - Total waste collected: 463
+  - Total fuel spent: 79
+  - Total distance travelled: 79
+  - Total number of collabs: 4
+
+TRUCK: truck_recyclable_4@localhost [recyclable]
+  - Total waste collected: 419
+  - Total fuel spent: 93
+  - Total distance travelled: 93
+  - Total number of collabs: 5
+
+TRUCK: truck_recyclable_5@localhost [recyclable]
+  - Total waste collected: 255
+  - Total fuel spent: 9
+  - Total distance travelled: 9
+  - Total number of collabs: 5
+
+TRUCK: truck_recyclable_6@localhost [recyclable]
+  - Total waste collected: 454
+  - Total fuel spent: 68
+  - Total distance travelled: 68
+  - Total number of collabs: 5
+
+BIN bin_organic_1@localhost [organic]:
+  - Total collections: 4
+  - CFP collections: 0
+  - Autonomous collections: 4
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 4 collections
+  - No CFP collections
+
+BIN bin_organic_2@localhost [organic]:
+  - Total collections: 6
+  - CFP collections: 0
+  - Autonomous collections: 6
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 6 collections
+  - No CFP collections
+
+BIN bin_organic_3@localhost [organic]:
+  - Total collections: 6
+  - CFP collections: 0
+  - Autonomous collections: 6
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 6 collections
+  - No CFP collections
+
+BIN bin_organic_4@localhost [organic]:
+  - Total collections: 6
+  - CFP collections: 0
+  - Autonomous collections: 6
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 6 collections
+  - No CFP collections
+
+BIN bin_organic_5@localhost [organic]:
+  - Total collections: 4
+  - CFP collections: 0
+  - Autonomous collections: 4
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 4 collections
+  - No CFP collections
+
+BIN bin_recyclable_6@localhost [recyclable]:
+  - Total collections: 4
+  - CFP collections: 0
+  - Autonomous collections: 4
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 4 collections
+  - No CFP collections
+
+BIN bin_recyclable_7@localhost [recyclable]:
+  - Total collections: 4
+  - CFP collections: 0
+  - Autonomous collections: 4
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 4 collections
+  - No CFP collections
+
+BIN bin_recyclable_8@localhost [recyclable]:
+  - Total collections: 6
+  - CFP collections: 0
+  - Autonomous collections: 6
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 6 collections
+  - No CFP collections
+
+BIN bin_recyclable_9@localhost [recyclable]:
+  - Total collections: 4
+  - CFP collections: 0
+  - Autonomous collections: 4
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 4 collections
+  - No CFP collections
+
+BIN bin_recyclable_10@localhost [recyclable]:
+  - Total collections: 6
+  - CFP collections: 0
+  - Autonomous collections: 6
+  - CFP collection times: []
+  - Overflow count: 0
+  - Collection rate: 6 collections
+  - No CFP collections
+
+
+==================================================
+SYSTEM PERFORMANCE METRICS
+==================================================
+
+SYSTEM EFFICIENCY:
+--------------------
+Bins collected before overflow: 10/10 (100.0%)
+Bins with at least one collection: 10/10 (100.0%)
+Total collections (all types): 50
+CFP collections: 0
+Autonomous collections: 50
+
+RESPONSE TIMES (CFP only):
+-------------------------
+No CFP collections recorded
+
+RECYCLING STATISTICS:
+--------------------
+Estimated recycling rate: 48.0%
+Organic bins: 5
+Recyclable bins: 5
+Estimated organic waste collected: 1300 units
+Estimated recyclable waste collected: 1200 units
+
+TRUCK EFFICIENCY:
+---------------
+Waste collected per fuel unit: 6.81
+Waste collected per distance unit: 6.81
+Total fuel consumed: 342
+Total distance traveled: 342
+
+COLLABORATION & RESILIENCE:
+-------------------------
+Collaborations per breakdown: 30.00
+Average collaborations per truck: 5.00
+Total collaborations: 30
+Trucks that experienced breakdowns: 0
+
+OVERALL SUMMARY:
+---------------
+Total simulation time: 302.00s
+Total waste collected: 2328 units
+Total trucks: 6
+Total bins: 10
+Actual simulation run time: 302.00s
