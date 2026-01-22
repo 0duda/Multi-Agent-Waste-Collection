@@ -90,8 +90,6 @@ The system features:
 
 ```
 Multi-Agent-Waste-Collection/
-├── __pycache__/
-├── .vscode/
 ├── configs/
 │   ├── config1.json
 │   ├── config2.json
